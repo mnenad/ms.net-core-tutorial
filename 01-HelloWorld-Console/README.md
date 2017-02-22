@@ -4,7 +4,7 @@ Starting new .net core project
 
 dotnet new
 
-ls //walkthrough files created
+ls //walk through files created
 
 dotnet restore //pulling down dependencies
 
