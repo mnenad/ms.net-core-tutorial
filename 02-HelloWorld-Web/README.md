@@ -6,11 +6,15 @@ Modify the dependencies section in project.json to look like this:
         "Microsoft.AspNetCore.Server.Kestrel": "1.0.0"
   },
 
-  Add following using statement at the top of the class:
+  Add following using statement at the top of the Program.cs class:
 
   using Microsoft.AspNetCore.Hosting;
   using Microsoft.AspNetCore.Builder;
   using Microsoft.Extensions.Configuration;
+
+  Replace namespace line with the following:
+
+  namespace WebApplication.hw
 
   Replace Console.WriteLine("Hello World!"); with the folloiwng:
 
@@ -31,7 +35,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 
-namespace StatlerWaldorfCorp.Grabbymon {
+namespace WebApplication.hw{
     public class Startup
     {
         public void Configure(IApplicationBuilder app)
