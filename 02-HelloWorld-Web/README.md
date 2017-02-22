@@ -12,7 +12,7 @@ Modify the dependencies section in project.json to look like this:
   using Microsoft.AspNetCore.Builder;
   using Microsoft.Extensions.Configuration;
 
-  Replace namespace line with the following:
+  Replace namespace line namespace ConsoleApplication with the following:
 
   namespace WebApplication.hw
 
