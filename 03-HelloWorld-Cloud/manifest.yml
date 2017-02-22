@@ -1,0 +1,8 @@
+﻿---
+applications:
+- name: HelloWorld
+  random-route: true
+  memory: 512M
+  buildpack: https://github.com/cloudfoundry-community/asp.net5-buildpack.git
+  env:
+    ASPNETCORE_ENVIRONMENT: production
